@@ -3,7 +3,7 @@
   "author": { "name": "K-Nay", "url": ""},
   "description": "Invoice application to learn React w/ Typescript, Hooks and Tailwind css",
   "keywords": ["React", "TypeScript", "Tailwind"],
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "private": true,
   "dependencies": {
