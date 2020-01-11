@@ -1,8 +1,7 @@
 ## Invoice App
 A playground project to play with React Hooks, TypeScript and Tailwind CSS.
 
-![Image of application]
-(docs/app-image.png)
+![Image of application](docs/app-image.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
