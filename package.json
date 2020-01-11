@@ -1,8 +1,9 @@
 {
   "name": "invoice-app",
-  "author": { "name": "K-Nay", "url": ""},
+  "author": { "name": "K-Nay", "url": "http://knaylor.github.io/invoice-app"},
   "description": "Invoice application to learn React w/ Typescript, Hooks and Tailwind css",
   "keywords": ["React", "TypeScript", "Tailwind"],
+  "homepage" : "http://knaylor.github.io/invoice-app",
   "version": "0.1.1",
   "license": "MIT",
   "private": true,
@@ -24,7 +25,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
