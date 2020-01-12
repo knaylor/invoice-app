@@ -59,7 +59,7 @@ const FormLineItem = (props:any) => {
           <InvoiceError errors={errors} hideErrors={hideErrors} />
         </div>
       )}
-      <div className="flex flex-row">
+      <div className="flex sm:flex-col md:flex-row lg:flex-row xl:flex-row">
         <div className="flex-1 flex-grow text-gray-700 text-center pr-4 py-2 my-2 rounded">
           <FormInput
             handleChange={handleDescriptionChange}
